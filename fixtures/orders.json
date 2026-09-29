@@ -1,0 +1,5 @@
+{
+  "source": "local-verification-fixture",
+  "order": {"id": "verification-order-1042", "total_minor": 12900, "currency": "EUR", "items": [{"sku": "fixture-product", "quantity": 2}]},
+  "note": "Synthetic verification data; not customer or production data."
+}

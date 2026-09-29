@@ -1,0 +1,50 @@
+# Local state and exports
+/data/
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.log
+*.tmp
+*.tmp-*
+
+# Secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+.local.env
+secrets/
+*.pem
+*.key
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated builds
+/build/
+/dist/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+
+# Operating system and editor files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*~
